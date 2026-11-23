@@ -1,1 +1,0 @@
-UrbanVerse screenshots
