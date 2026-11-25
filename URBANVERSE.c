@@ -378,7 +378,7 @@ int main()
                lastName, areaNames[lastArea - 1]);
     }
 
-    printPrompt("\nEnter your name: ");
+    printf("\nEnter your name: ");
 
     fgets(name, sizeof(name), stdin);
     name[strcspn(name, "\n")] = '\0';
@@ -389,7 +389,7 @@ int main()
 
     while (area == 0)
     {
-        printPrompt("\nEnter your area name: ");
+        printf("\nEnter your area name: ");
 
         fgets(areaName, sizeof(areaName), stdin);
         areaName[strcspn(areaName, "\n")] = '\0';
@@ -1169,4 +1169,5 @@ do
     }
 
 } while (choice != 0);
+
 }
